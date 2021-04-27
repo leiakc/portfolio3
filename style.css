@@ -38,10 +38,11 @@ a {
 }
 
 .menu-stuff {
+  color: white;
   font-size: 1.8em;
   display: none;
   float: right;
-  background-color: #D9FAFF;
+  background-color: #22A0B1;
   padding-left: 50px;
   padding-right: 50px;
   padding-bottom: 20px;
@@ -49,8 +50,16 @@ a {
   border-radius: 60px;
   height: inherit;
   margin-right: 25px;
+  /* border-color: #25CEE5;
+  border-width: medium;
+  border-style: solid; */
 }
 
+.menu-stuff > a {
+  text-decoration: underline;
+  color: black;
+  cursor: all-scroll;
+}
 
 /* ---------------------------------------------- */
 html {
@@ -449,7 +458,7 @@ button {
 
 button:hover {
   cursor: pointer;
-  background-color: grey;
+  background-color: #25CEE5;
   color: white;
 }
 
@@ -480,6 +489,17 @@ button:hover {
 .menuButton:hover {
   /* background-color: black; */
   color: white;
+}
+
+a:hover{
+  color: #25CEE5;
+}
+
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
 }
 
 /* Media Query - different device sizes -------------------------------------*/
