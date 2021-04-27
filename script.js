@@ -19,6 +19,7 @@ var onSection = 0;
 // 4 - illustration
 // 5 - jewellery
 
+// when the menu button is clicked, the menu will show/hide
 function hideShow() {
   if (menuOpen == false){
     document.getElementById("menu").style.display = "block";
@@ -29,6 +30,7 @@ function hideShow() {
     menuOpen = !menuOpen;
 }
 
+// portfolio: what section is selected?
 function sect0(){
   sec0 = !sec0;
 
@@ -42,9 +44,6 @@ function sect0(){
 
   whichSection();
 
-  // if (sec1 == false && sec2 == false && sec3 == false && sec4 == false && sec5 == false){
-  //   sec0 = true;
-  // }
 }
 
 function sect1(){
@@ -117,6 +116,9 @@ function sect5(){
   whichSection();
 }
 
+// when a section is selected,
+// show all relevant artworks and hide all irrelevant artworks
+// and change the selected button color to blue
 function whichSection(){
 
   document.getElementById("button0").style.background = "white";
@@ -217,28 +219,3 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "block";
   }
 }
-
-// function whichSection(){
-//
-//   if (onSection == 0){
-//     //all display is block
-//   } else if (onSection == 1) {
-//     //painting block
-//     //everything else, none
-//   } else if (onSection == 2) {
-//     //painting block
-//     //everything else, none
-//   } else if (onSection == 3) {
-//     //painting block
-//     //everything else, none
-//   } else if (onSection == 4) {
-//     //painting block
-//     //everything else, none
-//   } else if (onSection == 5) {
-//     //painting block
-//     //everything else, none
-//   } else {
-//     sec0 = true;
-//     //all display is block
-//   }
-// }
