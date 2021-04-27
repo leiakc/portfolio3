@@ -54,12 +54,8 @@ a {
 
 /* ---------------------------------------------- */
 html {
-
   font-family: 'Poppins', sans-serif;
-  /* font-size: 1.2em;
-  box-sizing: border-box; */
   background-color: white;
-  /* color: #003300; */
 }
 
 body {
@@ -84,24 +80,251 @@ hr {
   margin-left: 5vw;
   margin-right: 5vw;
 
-
 display: grid;
 grid-template-rows: auto;
 grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
 grid-gap: 0px;
 background-color: white;
 padding: 10px;
-border-color: black;
+/* border-color: black;
 border-width: medium;
-border-style: solid;
+border-style: solid; */
 }
 
 .grid-container > div {
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
   grid-column: span 5;
   border-radius: 15pt;
 }
+
+.connect-grid {
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: 30% auto auto;
+grid-gap: 10px;
+background-color: white;
+padding: 10px;
+/* border-color: black;
+border-width: medium;
+border-style: none; */
+}
+
+.connect-grid > div {
+  text-align: center;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 2.3em;
+  padding: 5px;
+}
+
+.socials {
+  font-size: 2.0em;
+  padding: 30px;
+}
+
+.about-grid-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+display: grid;
+grid-template-rows: auto;
+/* grid-template-columns: repeat(auto-fit, minmax(55px, 1fr)); */
+
+grid-template-columns: 40% auto;
+
+
+grid-gap: 20px;
+background-color: white;
+padding: 10px;
+/* border-color: black;
+border-width: medium;
+border-style: solid; */
+
+}
+
+.about-grid-container > div {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* grid-column: span 2; */
+  border-radius: 15pt;
+}
+
+.portrait {
+  background-image: url("img/portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+
+.about-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.square-grid-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+display: grid;
+grid-template-rows: auto;
+/* grid-template-columns: repeat(auto-fit, minmax(55px, 1fr)); */
+
+grid-template-columns: 50% auto;
+
+
+grid-gap: 20px;
+background-color: white;
+padding: 10px;
+/* border-color: black;
+border-width: medium;
+border-style: solid; */
+
+}
+
+.square-grid-container > div {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* grid-column: span 2; */
+  border-radius: 15pt;
+}
+
+.square-art {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.square-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+.portrait-grid-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+display: grid;
+grid-template-rows: auto;
+/* grid-template-columns: repeat(auto-fit, minmax(55px, 1fr)); */
+
+grid-template-columns: 50% auto;
+
+
+grid-gap: 20px;
+background-color: white;
+padding: 10px;
+/* border-color: black;
+border-width: medium;
+border-style: solid; */
+
+}
+
+.portrait-grid-container > div {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* grid-column: span 2; */
+  border-radius: 15pt;
+
+}
+
+.portrait-art {
+  background-image: url("img/jessie.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+   /* width: 100%; */
+   min-height: 90vh;
+  /* padding-top: 100%; /* 1:1 Aspect Ratio  */
+  /* padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
+  /* padding-top: 133%; */
+}
+
+.portrait-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+
+}
+
+.landscape-grid-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+
+display: grid;
+grid-template-rows: auto;
+/* grid-template-columns: repeat(auto-fit, minmax(55px, 1fr)); */
+
+grid-template-columns: 40% auto;
+
+
+grid-gap: 20px;
+background-color: white;
+padding: 10px;
+/* border-color: black;
+border-width: medium;
+border-style: solid; */
+
+}
+
+
+.landscape-grid-container > div {
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  /* grid-column: span 2; */
+  border-radius: 15pt;
+  grid-column: span 2;
+
+}
+
+.landscape-art {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+   /* width: 100%; */
+   min-height: 80vh;
+  /* padding-top: 100%; /* 1:1 Aspect Ratio  */
+  /* padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
+  /* padding-top: 133%; */
+}
+
+.landscape-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+
+}
+
 
 .art-grid-container {
     display: grid;
@@ -114,26 +337,54 @@ border-style: solid;
     grid-gap: 0px;
     background-color: white;
     padding: 10px;
-    border-color: black;
+    /* border-color: black;
     border-width: medium;
-    border-style: solid;
+    border-style: solid; */
 }
 
 .art-grid-container > div {
   grid-column: auto;
   margin: 10px;
 
-  padding-left: 20px;
-  padding-right: 20px;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  border-radius: 15pt;
+}
+
+.art2-grid-container {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, auto-fit, minmax(90px, 1fr)); */
+    grid-template-columns: auto auto auto auto;
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    grid-gap: 0px;
+    background-color: white;
+    padding: 10px;
+    /* border-color: black;
+    border-width: medium;
+    border-style: solid; */
+}
+
+.art2-grid-container > div {
+  grid-column: auto;
+  margin: 10px;
+
+  /* padding-left: 20px;
+  padding-right: 20px; */
   border-radius: 15pt;
 }
 
 .main-art {
-  background-image: url("img/abc.jpg");
+  background-image: url("img/illustration/existential_butterfly.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 70vh;
+  min-height: 50vh;
+  max-height: 500px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .grid-art {
@@ -144,25 +395,12 @@ border-style: solid;
   min-height: 50vh;
 }
 
-button {
-  background-color: white;
-  /* border-radius: 60px;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  color: black;
-  font-size: 2.0em; */
-  /* padding: 1.0em;
-  padding-left: 2.0em;
-  padding-right: 2.0em;
-  margin-left: 1.0em;
-  margin-right: 1.0em; */
-
-}
-
-button:hover {
-  background-color: grey;
-  color: white;
+.grid2-art {
+  background-image: url("img/img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
 }
 
 .blue-spread {
@@ -171,11 +409,55 @@ button:hover {
   text-align: center;
 }
 
-.blue-spread > button{
-  /* margin-top: 0.4em;
-  margin-bottom: 0.4em; */
+.blue-spread > button {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+
 }
 
+.blue-spread2 {
+  padding: 4vw;
+  background-color: #D9FAFF;
+  text-align: center;
+}
+
+.blue-spread2 > button {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  font-size: 1.3em;
+  padding: 0.9em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  font-weight: 600;
+}
+
+button {
+  background-color: white;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: black;
+  font-size: 2.0em;
+  padding: 1.0em;
+  padding-left: 2.0em;
+  padding-right: 2.0em;
+  margin-left: 1.0em;
+  margin-right: 1.0em;
+
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+
+.page-title {
+  font-size: 1.5em;
+  position: absolute;
+  /* left: 40%; */
+}
 
 .menuButton {
   margin-right: 25px;
@@ -196,7 +478,7 @@ button:hover {
 }
 
 .menuButton:hover {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 
@@ -204,8 +486,65 @@ button:hover {
 /* smaller screen size */
 @media screen and (max-width: 900px){
 
+  .about-grid-container > div {
+    grid-column: span 2;
+  }
+
+  .square-grid-container > div {
+    grid-column: span 2;
+  }
+
+  .square-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .portrait-grid-container > div {
+    grid-column: span 2;
+  }
+
+  .portrait-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .landscape-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .landscape-art {
+    min-height: 40vh;
+  }
+
+  /* .landscape-grid-container > div {
+    grid-column: span 2;
+  } */
+
+  .connect-grid{
+    /* padding-left: 4.0em; */
+    /* margin-left: 6vw;
+    margin-right: 0vw; */
+    grid-template-columns: auto;
+  }
+
+  .connect-grid > div {
+    text-align: center;
+    /* grid-column: span 2; */
+  }
+
    .art-grid-container > div {
      grid-column: span 3;
+   }
+
+   .art2-grid-container > div {
+     grid-column: span 4;
+   }
+
+   .page-title {
+     font-size: 1.1em;
+     position: absolute;
+
    }
 
    /* .grid-container {
@@ -238,6 +577,14 @@ button:hover {
 
 /* larger screen size */
 @media (min-width: 1150px) {
+
+  /* body {
+    background-color: black;
+  } */
+
+  .portrait {
+    min-height: 60vh;
+  }
   /* html {
         font-size: 1vw;
        }
@@ -249,4 +596,199 @@ button:hover {
   .grid-container {
       grid-gap: 10px;
   } */
+}
+
+/* IMAGES -------------------------------------------------------------*/
+/* Index -------------------------------------------------------------*/
+.grid-art-1 {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.grid-art-2 {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-3 {
+  background-image: url("img/technology/paper_plane_poetry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-4 {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-5 {
+  background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-6 {
+  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+/* Portfolio -------------------------------------------------------------*/
+.grid2-art-1 {
+  background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-2 {
+  background-image: url("img/technology/paper_plane_poetry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-3 {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-4 {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-5 {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-6 {
+  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-7 {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+
+/* Individual Art Pages  -------------------------------------------------------------*/
+
+.expressive_heart-art {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.overthinking-art {
+  background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.existential_butterfly-art {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.what_am_i_doing_bug-art {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.how_do_i_survive_moth-art {
+  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.out_of_touch-art {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* min-height: 60vh;
+  min-width: 60vh; */
+   /* width: 100%; */
+   min-height: 80vh;
+  /* padding-top: 100%; /* 1:1 Aspect Ratio  */
+  /* padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
+  /* padding-top: 133%; */
+}
+
+.paper_plane_poetry-art {
+  min-height: 100vh;
+}
+
+.paper_plane_poetry-1-art {
+  background-image: url("img/technology/paper_plane_poetry_text.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 48vh;
+}
+
+.paper_plane_poetry-2-art {
+  background-image: url("img/technology/paper_plane_poetry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 48vh;
 }
