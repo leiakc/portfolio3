@@ -118,7 +118,7 @@ function sect5(){
 
 // when a section is selected,
 // show all relevant artworks and hide all irrelevant artworks
-// and change the selected button color to blue
+// and change the selected button color to grey
 function whichSection(){
 
   document.getElementById("button0").style.background = "white";
@@ -135,7 +135,7 @@ function whichSection(){
   document.getElementById("button5").style.color = "black";
 
   if (sec0 == true){
-    document.getElementById("button0").style.background = "#25CEE5;";
+    document.getElementById("button0").style.background = "grey";
     document.getElementById("button0").style.color = "white";
 
     document.getElementById("overthinking").style.display = "block";
@@ -146,7 +146,7 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "block";
     document.getElementById("existential_butterfly").style.display = "block";
   } else if (sec1 == true) {
-    document.getElementById("button1").style.background = "#25CEE5;";
+    document.getElementById("button1").style.background = "grey";
     document.getElementById("button1").style.color = "white";
 
     document.getElementById("overthinking").style.display = "block";
@@ -158,7 +158,7 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
   } else if (sec2 == true) {
-    document.getElementById("button2").style.background = "#25CEE5;";
+    document.getElementById("button2").style.background = "grey";
     document.getElementById("button2").style.color = "white";
 
     document.getElementById("out_of_touch").style.display = "block";
@@ -170,7 +170,7 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
   } else if (sec3 == true) {
-    document.getElementById("button3").style.background = "#25CEE5;";
+    document.getElementById("button3").style.background = "grey";
     document.getElementById("button3").style.color = "white";
 
     document.getElementById("paper_plane_poetry").style.display = "block";
@@ -182,7 +182,7 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
   } else if (sec4 == true) {
-    document.getElementById("button4").style.background = "#25CEE5;";
+    document.getElementById("button4").style.background = "grey";
     document.getElementById("button4").style.color = "white";
 
     document.getElementById("what_am_i_doing_bug").style.display = "block";
@@ -194,7 +194,7 @@ function whichSection(){
     document.getElementById("overthinking").style.display = "none";
     document.getElementById("expressive_heart").style.display = "none";
   } else if (sec5 == true) {
-    document.getElementById("button5").style.background = "#25CEE5;";
+    document.getElementById("button5").style.background = "grey";
     document.getElementById("button5").style.color = "white";
 
     document.getElementById("expressive_heart").style.display = "block";
@@ -207,7 +207,7 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "none";
   } else {
     sec0 = true;
-    document.getElementById("button0").style.background = "#25CEE5;";
+    document.getElementById("button0").style.background = "grey";
     document.getElementById("button0").style.color = "white";
 
     document.getElementById("overthinking").style.display = "block";
