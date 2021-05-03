@@ -298,7 +298,7 @@ padding: 10px;
 }
 
 .portrait-art {
-  background-image: url("img/jessie.jpg");
+  background-image: url("img/photography/she_blossoms.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -627,6 +627,30 @@ padding: 10px;
 }
 .grid2-art-9 {
   background-image: url("img/strategy/analyze_described_context/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-10 {
+  background-image: url("img/photography/she_blossoms.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-11 {
+  background-image: url("img/painting/finding_peace.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-12 {
+  background-image: url("img/technology/video_vis_img.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1018,4 +1042,21 @@ padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
    min-height: 80vh;
+}
+
+.finding-peace-art {
+  background-image: url("img/painting/finding_peace.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 105vh;
+}
+
+.video-vis-art {
+  background-clip: url("img/technology/video_vis.mp4");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
 }

@@ -19,7 +19,7 @@ var onSection = 0;
 // 3 - technology
 // 4 - illustration
 // 5 - jewellery
-// 6 - strategy 
+// 6 - strategy
 
 // when the menu button is clicked, the menu will show/hide
 function hideShow() {
@@ -172,11 +172,15 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "block";
     document.getElementById("behaviour_economy_map").style.display = "block";
     document.getElementById("analyze_described_context").style.display = "block";
+    document.getElementById("she_blossoms").style.display = "block";
+    document.getElementById("finding_peace").style.display = "block";
+    document.getElementById("video_vis").style.display = "block";
   } else if (sec1 == true) {
     document.getElementById("button1").style.background = "grey";
     document.getElementById("button1").style.color = "white";
 
     document.getElementById("overthinking").style.display = "block";
+    document.getElementById("finding_peace").style.display = "block";
 
     document.getElementById("paper_plane_poetry").style.display = "none";
     document.getElementById("what_am_i_doing_bug").style.display = "none";
@@ -186,11 +190,14 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
     document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("video_vis").style.display = "none";
+    document.getElementById("she_blossoms").style.display = "none";
   } else if (sec2 == true) {
     document.getElementById("button2").style.background = "grey";
     document.getElementById("button2").style.color = "white";
 
     document.getElementById("out_of_touch").style.display = "block";
+    document.getElementById("she_blossoms").style.display = "block";
 
     document.getElementById("paper_plane_poetry").style.display = "none";
     document.getElementById("what_am_i_doing_bug").style.display = "none";
@@ -200,11 +207,14 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
     document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("finding_peace").style.display = "none";
+    document.getElementById("video_vis").style.display = "none";
   } else if (sec3 == true) {
     document.getElementById("button3").style.background = "grey";
     document.getElementById("button3").style.color = "white";
 
     document.getElementById("paper_plane_poetry").style.display = "block";
+    document.getElementById("video_vis").style.display = "block";
 
     document.getElementById("out_of_touch").style.display = "none";
     document.getElementById("what_am_i_doing_bug").style.display = "none";
@@ -214,6 +224,8 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
     document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("she_blossoms").style.display = "none";
+    document.getElementById("finding_peace").style.display = "none";
   } else if (sec4 == true) {
     document.getElementById("button4").style.background = "grey";
     document.getElementById("button4").style.color = "white";
@@ -228,6 +240,9 @@ function whichSection(){
     document.getElementById("expressive_heart").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
     document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("she_blossoms").style.display = "none";
+    document.getElementById("finding_peace").style.display = "none";
+    document.getElementById("video_vis").style.display = "none";
   } else if (sec5 == true) {
     document.getElementById("button5").style.background = "grey";
     document.getElementById("button5").style.color = "white";
@@ -242,6 +257,9 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("behaviour_economy_map").style.display = "none";
     document.getElementById("analyze_described_context").style.display = "none";
+    document.getElementById("she_blossoms").style.display = "none";
+    document.getElementById("finding_peace").style.display = "none";
+    document.getElementById("video_vis").style.display = "none";
   } else if (sec6 == true) {
     document.getElementById("button6").style.background = "grey";
     document.getElementById("button6").style.color = "white";
@@ -256,6 +274,9 @@ function whichSection(){
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
     document.getElementById("expressive_heart").style.display = "none";
+    document.getElementById("she_blossoms").style.display = "none";
+    document.getElementById("finding_peace").style.display = "none";
+    document.getElementById("video_vis").style.display = "none";
   } else {
     sec0 = true;
     document.getElementById("button0").style.background = "grey";
@@ -270,5 +291,8 @@ function whichSection(){
     document.getElementById("existential_butterfly").style.display = "block";
     document.getElementById("behaviour_economy_map").style.display = "block";
     document.getElementById("analyze_described_context").style.display = "block";
+    document.getElementById("she_blossoms").style.display = "block";
+    document.getElementById("finding_peace").style.display = "block";
+    document.getElementById("video_vis").style.display = "block";
   }
 }
