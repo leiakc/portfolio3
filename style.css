@@ -349,6 +349,25 @@ padding: 10px;
   padding-right: 2.5em;
 }
 
+/* --- behaviour_economy_map */
+
+.behaviour-grid-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 40% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.behaviour-grid-container > div {
+  border-radius: 15pt;
+  grid-column: span 2;
+}
+
 
 /* index page art grid container -------------------------------------------- */
 
@@ -404,6 +423,15 @@ padding: 10px;
   margin-right: 2.8em;
   margin-left: 2.8em;
   }
+
+  .behaviour-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .behaviour-grid-container > div {
+    min-height: 20vh;
+  }
 }
 
 
@@ -434,6 +462,19 @@ padding: 10px;
   .landscape-grid-container {
     margin-left: 5vw;
     margin-right: 5vw;
+  }
+
+  .landscape-grid-container > div {
+    min-height: 40vh;
+  }
+
+  .behaviour-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .behaviour-grid-container > div {
+    min-height: 40vh;
   }
 
   .landscape-art {
@@ -576,6 +617,22 @@ padding: 10px;
   min-height: 40vh;
   display: block;
 }
+.grid2-art-8 {
+  background-image: url("img/strategy/behaviour_economy_map/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-9 {
+  background-image: url("img/strategy/analyze_described_context/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
 
 /* Individual Art Pages  -------------------------------------------------------------*/
 .expressive_heart-art {
@@ -649,4 +706,316 @@ padding: 10px;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 48vh;
+}
+
+.behaviour_economy_map_1 {
+  background-image: url("img/strategy/behaviour_economy_map/slide1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_2 {
+  background-image: url("img/strategy/behaviour_economy_map/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_3 {
+  background-image: url("img/strategy/behaviour_economy_map/slide3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_4 {
+  background-image: url("img/strategy/behaviour_economy_map/slide4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_5 {
+  background-image: url("img/strategy/behaviour_economy_map/slide5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_6 {
+  background-image: url("img/strategy/behaviour_economy_map/slide6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_7 {
+  background-image: url("img/strategy/behaviour_economy_map/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_8 {
+  background-image: url("img/strategy/behaviour_economy_map/slide8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_9 {
+  background-image: url("img/strategy/behaviour_economy_map/slide9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_10 {
+  background-image: url("img/strategy/behaviour_economy_map/slide10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_11 {
+  background-image: url("img/strategy/behaviour_economy_map/slide11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_12 {
+  background-image: url("img/strategy/behaviour_economy_map/slide12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_13 {
+  background-image: url("img/strategy/behaviour_economy_map/slide13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_14 {
+  background-image: url("img/strategy/behaviour_economy_map/slide14.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_15 {
+  background-image: url("img/strategy/behaviour_economy_map/slide15.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_16 {
+  background-image: url("img/strategy/behaviour_economy_map/slide16.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_17 {
+  background-image: url("img/strategy/behaviour_economy_map/slide17.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_17 {
+  background-image: url("img/strategy/behaviour_economy_map/slide17.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_1 {
+  background-image: url("img/strategy/analyze_described_context/slide1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_2 {
+  background-image: url("img/strategy/analyze_described_context/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_3 {
+  background-image: url("img/strategy/analyze_described_context/slide3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_4 {
+  background-image: url("img/strategy/analyze_described_context/slide4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_5 {
+  background-image: url("img/strategy/analyze_described_context/slide5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_6 {
+  background-image: url("img/strategy/analyze_described_context/slide6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_7 {
+  background-image: url("img/strategy/analyze_described_context/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_8 {
+  background-image: url("img/strategy/analyze_described_context/slide8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_9 {
+  background-image: url("img/strategy/analyze_described_context/slide9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_10 {
+  background-image: url("img/strategy/analyze_described_context/slide10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_11 {
+  background-image: url("img/strategy/analyze_described_context/slide11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_12 {
+  background-image: url("img/strategy/analyze_described_context/slide12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_13 {
+  background-image: url("img/strategy/analyze_described_context/slide13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_14 {
+  background-image: url("img/strategy/analyze_described_context/slide14.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_15 {
+  background-image: url("img/strategy/analyze_described_context/slide15.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_16 {
+  background-image: url("img/strategy/analyze_described_context/slide16.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_17 {
+  background-image: url("img/strategy/analyze_described_context/slide17.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_18 {
+  background-image: url("img/strategy/analyze_described_context/slide18.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_19 {
+  background-image: url("img/strategy/analyze_described_context/slide19.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_20 {
+  background-image: url("img/strategy/analyze_described_context/slide20.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_21 {
+  background-image: url("img/strategy/analyze_described_context/slide21.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
 }

@@ -10,6 +10,7 @@ var sec2 = false;
 var sec3 = false;
 var sec4 = false;
 var sec5 = false;
+var sec6 = false;
 
 var onSection = 0;
 // 0 - all
@@ -18,6 +19,7 @@ var onSection = 0;
 // 3 - technology
 // 4 - illustration
 // 5 - jewellery
+// 5 - strategy
 
 // when the menu button is clicked, the menu will show/hide
 function hideShow() {
@@ -40,6 +42,7 @@ function sect0(){
     sec3 = false;
     sec4 = false;
     sec5 = false;
+    sec6 = false;
   }
 
   whichSection();
@@ -55,6 +58,7 @@ function sect1(){
     sec3 = false;
     sec4 = false;
     sec5 = false;
+    sec6 = false;
   }
 
   whichSection();
@@ -69,6 +73,7 @@ function sect2(){
     sec3 = false;
     sec4 = false;
     sec5 = false;
+    sec6 = false;
   }
 
   whichSection();
@@ -83,6 +88,7 @@ function sect3(){
     sec2 = false;
     sec4 = false;
     sec5 = false;
+    sec6 = false;
   }
 
   whichSection();
@@ -97,6 +103,7 @@ function sect4(){
     sec2 = false;
     sec3 = false;
     sec5 = false;
+    sec6 = false;
   }
 
   whichSection();
@@ -111,6 +118,19 @@ function sect5(){
     sec2 = false;
     sec3 = false;
     sec4 = false;
+    sec6 = false;
+  }
+
+function sect6(){
+  sec6 = !sec6;
+
+  if (sec6 == true){
+    sec0 = false;
+    sec1 = false;
+    sec2 = false;
+    sec3 = false;
+    sec4 = false;
+    sec5 = false;
   }
 
   whichSection();
@@ -133,6 +153,8 @@ function whichSection(){
   document.getElementById("button4").style.color = "black";
   document.getElementById("button5").style.background = "white";
   document.getElementById("button5").style.color = "black";
+  document.getElementById("button6").style.background = "white";
+  document.getElementById("button6").style.color = "black";
 
   if (sec0 == true){
     document.getElementById("button0").style.background = "grey";
@@ -145,6 +167,8 @@ function whichSection(){
     document.getElementById("expressive_heart").style.display = "block";
     document.getElementById("how_do_i_survive_moth").style.display = "block";
     document.getElementById("existential_butterfly").style.display = "block";
+    document.getElementById("behaviour_economy_map").style.display = "block";
+    document.getElementById("analyze_described_context").style.display = "block";
   } else if (sec1 == true) {
     document.getElementById("button1").style.background = "grey";
     document.getElementById("button1").style.color = "white";
@@ -157,6 +181,8 @@ function whichSection(){
     document.getElementById("expressive_heart").style.display = "none";
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
+    document.getElementById("behaviour_economy_map").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
   } else if (sec2 == true) {
     document.getElementById("button2").style.background = "grey";
     document.getElementById("button2").style.color = "white";
@@ -169,6 +195,8 @@ function whichSection(){
     document.getElementById("expressive_heart").style.display = "none";
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
+    document.getElementById("behaviour_economy_map").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
   } else if (sec3 == true) {
     document.getElementById("button3").style.background = "grey";
     document.getElementById("button3").style.color = "white";
@@ -181,6 +209,8 @@ function whichSection(){
     document.getElementById("expressive_heart").style.display = "none";
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
+    document.getElementById("behaviour_economy_map").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
   } else if (sec4 == true) {
     document.getElementById("button4").style.background = "grey";
     document.getElementById("button4").style.color = "white";
@@ -193,6 +223,8 @@ function whichSection(){
     document.getElementById("out_of_touch").style.display = "none";
     document.getElementById("overthinking").style.display = "none";
     document.getElementById("expressive_heart").style.display = "none";
+    document.getElementById("behaviour_economy_map").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
   } else if (sec5 == true) {
     document.getElementById("button5").style.background = "grey";
     document.getElementById("button5").style.color = "white";
@@ -205,6 +237,22 @@ function whichSection(){
     document.getElementById("out_of_touch").style.display = "none";
     document.getElementById("how_do_i_survive_moth").style.display = "none";
     document.getElementById("existential_butterfly").style.display = "none";
+    document.getElementById("behaviour_economy_map").style.display = "none";
+    document.getElementById("analyze_described_context").style.display = "none";
+  } else if (sec6 == true) {
+    document.getElementById("button6").style.background = "grey";
+    document.getElementById("button6").style.color = "white";
+
+    document.getElementById("behaviour_economy_map").style.display = "block";
+    document.getElementById("analyze_described_context").style.display = "block";
+
+    document.getElementById("paper_plane_poetry").style.display = "none";
+    document.getElementById("what_am_i_doing_bug").style.display = "none";
+    document.getElementById("overthinking").style.display = "none";
+    document.getElementById("out_of_touch").style.display = "none";
+    document.getElementById("how_do_i_survive_moth").style.display = "none";
+    document.getElementById("existential_butterfly").style.display = "none";
+    document.getElementById("expressive_heart").style.display = "none";
   } else {
     sec0 = true;
     document.getElementById("button0").style.background = "grey";
@@ -217,5 +265,7 @@ function whichSection(){
     document.getElementById("expressive_heart").style.display = "block";
     document.getElementById("how_do_i_survive_moth").style.display = "block";
     document.getElementById("existential_butterfly").style.display = "block";
+    document.getElementById("behaviour_economy_map").style.display = "block";
+    document.getElementById("analyze_described_context").style.display = "block";
   }
 }
