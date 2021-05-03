@@ -19,7 +19,7 @@ var onSection = 0;
 // 3 - technology
 // 4 - illustration
 // 5 - jewellery
-// 5 - strategy
+// 6 - strategy
 
 // when the menu button is clicked, the menu will show/hide
 function hideShow() {
