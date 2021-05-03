@@ -121,6 +121,9 @@ function sect5(){
     sec6 = false;
   }
 
+  whichSection();
+}
+
 function sect6(){
   sec6 = !sec6;
 
