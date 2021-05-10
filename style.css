@@ -1,0 +1,1099 @@
+/*
+Font Names:
+font-family: 'Poppins', sans-serif;
+*/
+
+/* GENERAL -------------------------------------------------------- */
+
+header {
+  position: fixed;
+  padding-left: 20px;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  background: rgba(255, 255, 255, 0.8);
+  padding-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.logo > a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+a:hover{
+  color: #25CEE5;
+}
+
+.page-title {
+  font-size: 1.5em;
+  position: absolute;
+}
+
+/* TEXT/FONT ------------------------------------------------------------------*/
+
+html {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+}
+
+body {
+
+margin: 0px;
+
+}
+
+h2 {
+font-weight: 400;
+font-size: 2.5em;
+margin-top: 0.5em;
+margin-bottom: 0.05em;
+}
+
+/* BUTTON ------------------------------------------------ */
+button {
+  background-color: white;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: black;
+  font-size: 2.0em;
+  padding: 1.0em;
+  padding-left: 2.0em;
+  padding-right: 2.0em;
+  margin-left: 1.0em;
+  margin-right: 1.0em;
+
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #25CEE5;
+  color: white;
+}
+
+/* MENU ------------------------------------------------------ */
+.menu-stuff {
+  color: white;
+  font-size: 1.8em;
+  display: none;
+  float: right;
+  background-color: #22A0B1;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  border-radius: 60px;
+  height: inherit;
+  margin-right: 25px;
+}
+
+.menuButton {
+  margin-right: 25px;
+  float: right;
+  font-weight: 600;
+  background-color: black;
+  border-radius: 60px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 0.6em;
+}
+
+.menuButton:hover {
+  color: white;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+  padding: 0px;
+}
+
+/* blue spreads ------------------------------------------------- */
+/* one */
+.blue-spread {
+  padding: 5vw;
+  background-color: #D9FAFF;
+  text-align: center;
+}
+
+.blue-spread > button {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+
+}
+
+/* two */
+.blue-spread2 {
+  padding: 4vw;
+  background-color: #D9FAFF;
+  text-align: center;
+}
+
+.blue-spread2 > button {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+  font-size: 1.3em;
+  padding: 0.9em;
+  padding-left: 1.2em;
+  padding-right: 1.2em;
+  font-weight: 600;
+}
+
+/* Grid containers ----------------------------------------------------------*/
+.grid-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+display: grid;
+grid-template-rows: auto;
+grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+grid-gap: 0px;
+background-color: white;
+padding: 10px;
+}
+
+.grid-container > div {
+  grid-column: span 5;
+  border-radius: 15pt;
+}
+
+/* template art grid containers --------------------------------------------*/
+
+.grid-art {
+  background-image: url("img/abc.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.grid2-art {
+  background-image: url("img/img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+
+/* about page ------------------------------------------------------------- */
+
+.connect-grid {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 30% auto auto;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+.connect-grid > div {
+  text-align: center;
+}
+
+.connect {
+  font-weight: 500;
+  font-size: 2.3em;
+  padding: 5px;
+}
+
+.socials {
+  font-size: 2.0em;
+  padding: 30px;
+}
+
+.about-grid-container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 40% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.about-grid-container > div {
+  border-radius: 15pt;
+}
+
+.portrait {
+  background-image: url("img/portrait.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+}
+
+.about-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+/* ART PAGES ---------------------------------------------------- */
+/* Square art layout --------------------------------------------- */
+.square-grid-container {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.square-grid-container > div {
+  border-radius: 15pt;
+}
+
+.square-art {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.square-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+/* Portrait art layout ------------------------------------------------ */
+
+.portrait-grid-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 50% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+.portrait-grid-container > div {
+  border-radius: 15pt;
+}
+
+.portrait-art {
+  background-image: url("img/photography/she_blossoms.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 90vh;
+}
+
+.portrait-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+/* Landscappe art layout ------------------------------------------------- */
+.landscape-grid-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 40% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.landscape-grid-container > div {
+  border-radius: 15pt;
+  grid-column: span 2;
+}
+
+.landscape-art {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.landscape-text {
+  background-color: #D9FAFF;
+  font-size: 1.0em;
+  padding-top: 1.0em;
+  padding-bottom: 1.0em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+
+/* --- behaviour_economy_map */
+
+.behaviour-grid-container {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 40% auto;
+  grid-gap: 20px;
+  background-color: white;
+  padding: 10px;
+}
+
+
+.behaviour-grid-container > div {
+  border-radius: 15pt;
+  grid-column: span 2;
+}
+
+
+/* index page art grid container -------------------------------------------- */
+
+.main-art {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  max-height: 500px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.art-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    grid-gap: 0px;
+    background-color: white;
+    padding: 10px;
+}
+
+.art-grid-container > div {
+  grid-column: auto;
+  margin: 10px;
+  border-radius: 15pt;
+}
+
+/* portfolio page art grid container -------------------------------------------- */
+
+.art2-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    grid-gap: 0px;
+    background-color: white;
+    padding: 10px;
+}
+
+.art2-grid-container > div {
+  grid-column: auto;
+  margin: 10px;
+  border-radius: 15pt;
+}
+
+/* Media Query - different device sizes -------------------------------------*/
+/* smaller screen size */
+@media screen and (max-width: 500px){
+  .blue-spread2 > button {
+  margin-right: 2.8em;
+  margin-left: 2.8em;
+  }
+
+  .behaviour-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .behaviour-grid-container > div {
+    min-height: 20vh;
+  }
+}
+
+
+@media screen and (max-width: 900px){
+
+  .about-grid-container > div {
+    grid-column: span 2;
+  }
+
+  .square-grid-container > div {
+    grid-column: span 2;
+  }
+
+  .square-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .portrait-grid-container > div {
+    grid-column: span 2;
+  }
+
+  .portrait-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .landscape-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .landscape-grid-container > div {
+    min-height: 40vh;
+  }
+
+  .behaviour-grid-container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .behaviour-grid-container > div {
+    min-height: 40vh;
+  }
+
+  .landscape-art {
+    min-height: 40vh;
+  }
+
+  .connect-grid{
+    grid-template-columns: auto;
+  }
+
+  .connect-grid > div {
+    text-align: center;
+  }
+
+   .art-grid-container > div {
+     grid-column: span 3;
+   }
+
+   .art2-grid-container > div {
+     grid-column: span 4;
+   }
+
+   .page-title {
+     font-size: 1.1em;
+     position: absolute;
+     margin-top: 60px;
+   }
+
+}
+
+/* larger screen size */
+@media (min-width: 1150px) {
+
+  .portrait {
+    min-height: 60vh;
+  }
+
+}
+
+/* IMAGES --------------------------------------------------------------------------------------*/
+/* Index -------------------------------------------------------------*/
+.grid-art-1 {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+.grid-art-2 {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-3 {
+  background-image: url("img/technology/paper_plane_poetry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-4 {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-5 {
+  background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+.grid-art-6 {
+  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+}
+
+/* Portfolio -------------------------------------------------------------*/
+.grid2-art-1 {
+  background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-2 {
+  background-image: url("img/technology/paper_plane_poetry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-3 {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-4 {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-5 {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-6 {
+  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-7 {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-8 {
+  background-image: url("img/strategy/behaviour_economy_map/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-9 {
+  background-image: url("img/strategy/analyze_described_context/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-10 {
+  background-image: url("img/photography/she_blossoms.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-11 {
+  background-image: url("img/painting/finding_peace.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-12 {
+  background-image: url("img/technology/video_vis_img.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+.grid2-art-13 {
+  background-image: url("img/technology/bats_breakfast_2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 40vh;
+  display: block;
+}
+
+/* Individual Art Pages  -------------------------------------------------------------*/
+.expressive_heart-art {
+  background-image: url("img/jewellery/expressive_heart.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.overthinking-art {
+  background-image: url("img/painting/overthinking.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.existential_butterfly-art {
+  background-image: url("img/illustration/existential_butterfly.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.what_am_i_doing_bug-art {
+  background-image: url("img/illustration/what_am_i_doing_bug.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.how_do_i_survive_moth-art {
+  background-image: url("img/illustration/how_do_i_survive_moth.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.out_of_touch-art {
+  background-image: url("img/photography/out_of_touch.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.paper_plane_poetry-art {
+  min-height: 100vh;
+}
+
+.paper_plane_poetry-1-art {
+  background-image: url("img/technology/paper_plane_poetry_text.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 48vh;
+}
+
+.paper_plane_poetry-2-art {
+  background-image: url("img/technology/paper_plane_poetry.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 48vh;
+}
+
+.bats_breakfast-art {
+  min-height: 70vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bats_breakfast-1-art {
+  background-image: url("img/technology/bats_breakfast_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.bats_breakfast-2-art {
+  background-image: url("img/technology/bats_breakfast_2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
+
+.behaviour_economy_map_1 {
+  background-image: url("img/strategy/behaviour_economy_map/slide1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_2 {
+  background-image: url("img/strategy/behaviour_economy_map/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_3 {
+  background-image: url("img/strategy/behaviour_economy_map/slide3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_4 {
+  background-image: url("img/strategy/behaviour_economy_map/slide4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_5 {
+  background-image: url("img/strategy/behaviour_economy_map/slide5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_6 {
+  background-image: url("img/strategy/behaviour_economy_map/slide6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_7 {
+  background-image: url("img/strategy/behaviour_economy_map/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_8 {
+  background-image: url("img/strategy/behaviour_economy_map/slide8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_9 {
+  background-image: url("img/strategy/behaviour_economy_map/slide9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_10 {
+  background-image: url("img/strategy/behaviour_economy_map/slide10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_11 {
+  background-image: url("img/strategy/behaviour_economy_map/slide11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_12 {
+  background-image: url("img/strategy/behaviour_economy_map/slide12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_13 {
+  background-image: url("img/strategy/behaviour_economy_map/slide13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_14 {
+  background-image: url("img/strategy/behaviour_economy_map/slide14.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_15 {
+  background-image: url("img/strategy/behaviour_economy_map/slide15.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_16 {
+  background-image: url("img/strategy/behaviour_economy_map/slide16.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_17 {
+  background-image: url("img/strategy/behaviour_economy_map/slide17.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.behaviour_economy_map_17 {
+  background-image: url("img/strategy/behaviour_economy_map/slide17.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_1 {
+  background-image: url("img/strategy/analyze_described_context/slide1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_2 {
+  background-image: url("img/strategy/analyze_described_context/slide2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_3 {
+  background-image: url("img/strategy/analyze_described_context/slide3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_4 {
+  background-image: url("img/strategy/analyze_described_context/slide4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_5 {
+  background-image: url("img/strategy/analyze_described_context/slide5.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_6 {
+  background-image: url("img/strategy/analyze_described_context/slide6.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_7 {
+  background-image: url("img/strategy/analyze_described_context/slide7.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_8 {
+  background-image: url("img/strategy/analyze_described_context/slide8.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_9 {
+  background-image: url("img/strategy/analyze_described_context/slide9.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_10 {
+  background-image: url("img/strategy/analyze_described_context/slide10.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_11 {
+  background-image: url("img/strategy/analyze_described_context/slide11.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_12 {
+  background-image: url("img/strategy/analyze_described_context/slide12.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_13 {
+  background-image: url("img/strategy/analyze_described_context/slide13.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_14 {
+  background-image: url("img/strategy/analyze_described_context/slide14.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_15 {
+  background-image: url("img/strategy/analyze_described_context/slide15.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_16 {
+  background-image: url("img/strategy/analyze_described_context/slide16.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_17 {
+  background-image: url("img/strategy/analyze_described_context/slide17.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_18 {
+  background-image: url("img/strategy/analyze_described_context/slide18.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_19 {
+  background-image: url("img/strategy/analyze_described_context/slide19.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_20 {
+  background-image: url("img/strategy/analyze_described_context/slide20.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.described_context_21 {
+  background-image: url("img/strategy/analyze_described_context/slide21.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 80vh;
+}
+
+.finding-peace-art {
+  background-image: url("img/painting/finding_peace.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   min-height: 105vh;
+}
+
+.video-vis-art {
+  background-clip: url("img/technology/video_vis.mp4");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-top: 100%; /* 1:1 Aspect Ratio */
+}
