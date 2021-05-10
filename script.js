@@ -175,6 +175,7 @@ function whichSection(){
     document.getElementById("she_blossoms").style.display = "block";
     document.getElementById("finding_peace").style.display = "block";
     document.getElementById("video_vis").style.display = "block";
+    document.getElementById("bats_breakfast").style.display = "block";
   } else if (sec1 == true) {
     document.getElementById("button1").style.background = "grey";
     document.getElementById("button1").style.color = "white";
@@ -192,6 +193,7 @@ function whichSection(){
     document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
     document.getElementById("she_blossoms").style.display = "none";
+    document.getElementById("bats_breakfast").style.display = "none";
   } else if (sec2 == true) {
     document.getElementById("button2").style.background = "grey";
     document.getElementById("button2").style.color = "white";
@@ -209,12 +211,14 @@ function whichSection(){
     document.getElementById("analyze_described_context").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
+    document.getElementById("bats_breakfast").style.display = "none";
   } else if (sec3 == true) {
     document.getElementById("button3").style.background = "grey";
     document.getElementById("button3").style.color = "white";
 
     document.getElementById("paper_plane_poetry").style.display = "block";
     document.getElementById("video_vis").style.display = "block";
+    document.getElementById("bats_breakfast").style.display = "block";
 
     document.getElementById("out_of_touch").style.display = "none";
     document.getElementById("what_am_i_doing_bug").style.display = "none";
@@ -243,6 +247,7 @@ function whichSection(){
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
+    document.getElementById("bats_breakfast").style.display = "none";
   } else if (sec5 == true) {
     document.getElementById("button5").style.background = "grey";
     document.getElementById("button5").style.color = "white";
@@ -260,6 +265,7 @@ function whichSection(){
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
+    document.getElementById("bats_breakfast").style.display = "none";
   } else if (sec6 == true) {
     document.getElementById("button6").style.background = "grey";
     document.getElementById("button6").style.color = "white";
@@ -277,6 +283,7 @@ function whichSection(){
     document.getElementById("she_blossoms").style.display = "none";
     document.getElementById("finding_peace").style.display = "none";
     document.getElementById("video_vis").style.display = "none";
+    document.getElementById("bats_breakfast").style.display = "none";
   } else {
     sec0 = true;
     document.getElementById("button0").style.background = "grey";
@@ -294,5 +301,6 @@ function whichSection(){
     document.getElementById("she_blossoms").style.display = "block";
     document.getElementById("finding_peace").style.display = "block";
     document.getElementById("video_vis").style.display = "block";
+    document.getElementById("bats_breakfast").style.display = "block";
   }
 }
